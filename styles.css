@@ -84,3 +84,32 @@ color: white;
   font-size: 0.8em;  
   font-weight: normal;
 }
+
+@media (max-width: 768px) {
+
+  .Contenedor {
+    flex-direction: column;
+  }
+
+  .Izquierda,
+  .Derecha {
+    width: 100%;
+  }
+
+  .CV {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  #FotoPresentacion {
+    max-width: 120px;
+  }
+
+  #hornet {
+    margin: 20px auto;
+  }
+}
